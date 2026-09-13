@@ -1,6 +1,6 @@
 {
   "name": "chengfeng-videocut-maintain",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "private": true,
   "description": "按请求选择故障排查、指定组件更新或脱敏 Bug 反馈。",
   "license": "Apache-2.0",
@@ -12,7 +12,8 @@
     "node": ">=18"
   },
   "chengfengDistribution": {
-    "channel": "github-preview"
+    "channel": "github-preview",
+    "status": "local-candidate"
   },
   "files": [
     "README.md",
