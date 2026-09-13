@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "chengfeng-videocut-maintain",
+  "version": "0.1.0-beta.1",
+  "skillPath": ".agents/skills/chengfeng-videocut-maintain",
+  "files": {
+    "CITATION.cff": "9c793b74c88abcb73ea3d3bc0722489f2f5026305c15d11319d5bc9563eb5515",
+    "LICENSE": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+    "NOTICE.md": "589637fefd35c2b136f7df1c0a8455e73ae442750bf8438d9be8f817c9d365bb",
+    "SKILL.md": "8f71b3985af912ebc0754d67d339e77c0f0089d369adb030d3a244ce73accdf1",
+    "agents/openai.yaml": "32bc84c1ac620335d06a7709c00f2d01bf9aa5b39c4f754859b0ae1708f3b817",
+    "references/diagnose.md": "80d8303ceab4c481e67de4e9dcece4209d205a122d2d469dc38926e7313b0e99",
+    "references/report-bug.md": "59874fd54fd6005f367c76adf4c3f4fa3dd757b37954b24f615962e8f18775bf",
+    "references/shared/ai-term-dictionary.md": "d1a62bea810094c64c614396e7c878ef34afd66d070773bbc7377cea15f3dc21",
+    "references/shared/business-workflow-contract.md": "c311396e3d10f179c46a4a568acedcd22f384a61af654ae787d49f550f9fe97f",
+    "references/shared/existing-workflow.md": "93db2354e23dcca8aceeebb971b3f3deee62850ec01ea9324c206eace33e6ac2",
+    "references/shared/media-assets.md": "af5b42bf17729167413137f92f93dff7581fd5efb497d294a4cee10aac8f97b5",
+    "references/shared/module-publish.md": "86bc57dc5faafd1581aff3c80c4994dce16522fb542fb1bbe8345478fe2fb8da",
+    "references/shared/plugin-access.md": "fc7c42d6d9b56f2a83b898c992f5eef27b965481efe997b3690eb1ad499cc22a",
+    "references/shared/provenance.json": "f30d91f39bdbd79591d1c8facddd82634e512538b693ef15221e86924b21fee7",
+    "references/shared/runtime-cli.md": "d4ad73ec1dad054eb3413e8622b7d3b9c0bf84a0c3109aa40cf0d9c09a87c6a4",
+    "references/shared/visual-integration.md": "dc47c21bfcf99422cd08302be91237faebaab11897951a7bb3834f61388b72d1",
+    "references/shared/visual-module-contract.md": "a63d4e688599ea44207cd734b1afea518931127f199b4629093dad56af5d665b",
+    "references/updates.md": "71c0a7f718a3b0011f1cf1318cf76afebc74fe881e49068801fe32c9f14951f7"
+  },
+  "runtime": {
+    "command": "chengfeng-videocut",
+    "minimumVersion": "0.5.9",
+    "requireCapabilityProbe": true,
+    "bundled": false,
+    "requiredFor": "project-integration-only",
+    "validatedPlatforms": [],
+    "notes": "Check actual workbench commands and endpoint capabilities; version alone is not sufficient."
+  },
+  "publication": {
+    "status": "github-source-preview",
+    "ref": "v0.1.0-beta.1",
+    "verification": "see-external-publication-receipt",
+    "repository": "Agentchengfeng/chengfeng-videocut-maintain",
+    "remoteCommit": null,
+    "licenseReview": "project-license-retained",
+    "upload": {
+      "decision": "independent-candidate",
+      "blockers": []
+    }
+  }
+}

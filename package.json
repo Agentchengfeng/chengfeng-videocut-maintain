@@ -1,0 +1,42 @@
+{
+  "name": "chengfeng-videocut-maintain",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "description": "按请求选择故障排查、指定组件更新或脱敏 Bug 反馈。",
+  "license": "Apache-2.0",
+  "author": "成峰 / AI产品自由",
+  "bin": {
+    "chengfeng-videocut-maintain": "bin/install.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "chengfengDistribution": {
+    "channel": "github-preview"
+  },
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "skill-package.json",
+    "PUBLISHING.md",
+    "LICENSE",
+    "NOTICE.md",
+    "CITATION.cff",
+    "bin/install.cjs",
+    "bin/check-package.cjs",
+    ".agents/skills/chengfeng-videocut-maintain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agentchengfeng/chengfeng-videocut-maintain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agentchengfeng/chengfeng-videocut-maintain/issues"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut-maintain#readme",
+  "scripts": {
+    "test": "node bin/install.cjs help",
+    "check:package": "node bin/check-package.cjs check",
+    "check:upload": "node bin/check-package.cjs upload"
+  }
+}

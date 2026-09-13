@@ -1,0 +1,6 @@
+interface:
+  display_name: "chengfeng-videocut · 维护与排障"
+  short_description: "统一排查故障、检查组件更新与整理脱敏 Bug，按请求选择模式，不自动升级或上报"
+  default_prompt: "使用 $chengfeng-videocut-maintain 处理这次剪辑工具问题，先按请求选择模式，再说明证据、操作范围与结果。"
+policy:
+  allow_implicit_invocation: true
